@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #726e6e;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(141, 102, 102);
+    margin: 10px auto;
+    width: 80vw;
+    height: 40vh;
+    border: 1px solid #0000ff;
+    border-radius: 15px;
+    box-shadow: -10px 5px 15px black;
+}
+
+.container h1{
+    margin: 15px;
+    margin-bottom: 2px;
+    padding: 10px;
+    color: white; 
+    letter-spacing: 3px;
+}
+.cronometro{
+    display: flex; 
+    justify-content: space-around;
+    width: 500px;
+    height: 200px;
+    background-color: transparent;
+    margin-bottom: 15px;   
+}
+
+.container span{
+   color: white;
+   font-size: 25px;
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+}
+
+.horas{
+    border: 2px solid #0000ff;
+    margin: 5px;
+    width: 150px;
+    height:150px;
+    border-radius: 15px;
+    box-shadow: -10px 5px 15px black;
+}
+
+.minutos{
+    border: 2px solid #0000ff;
+    margin: 5px;
+    width: 150px;
+    height:150px;
+    border-radius: 15px;
+    box-shadow: -10px 5px 15px black;
+}
+
+.segundos{
+    border: 2px solid #0000ff;
+    border-radius: 15px;
+    margin: 5px;
+    width: 150px;
+    height:150px;
+    border-radius: 15px;
+    box-shadow: -10px 5px 15px black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-top: 25px;
+    color: white;
+}
+
+.btn-start{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color:blanchedalmond;
+    background-color: #10102b;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px black;
+}
+
+
+.btn-start:hover{
+    color: #01010c;
+    background-color: blanchedalmond;
+}
+
+.btn-stop{
+    display: none;
+    
+}
+
+.disable{
+    display: none;
+}
+
+.puntos{
+    background-color:transparent;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid #0000ff;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px black;
+}
+p{
+    color: blanchedalmond;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.active{
+    width: 200px;
+    height: 30px;
+    color:blanchedalmond;
+    background-color:#10102b;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow:  -5px 5px 10px black;
+    letter-spacing: 2px;
+}
+
+.active:hover{
+    color: #01010c;
+    background-color: blanchedalmond;
+}
+
+.disable{
+    display: none;
+}
